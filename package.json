@@ -1,0 +1,17 @@
+{
+  "name": "local-webserver-kit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "koa": "^1.2.1",
+    "koa-nunjucks-2": "^2.1.6",
+    "nodemon": "^1.10.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node_modules/.bin/nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
